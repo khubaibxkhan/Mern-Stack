@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font: arial, sans-serif;
-    line-height: 30px;
 }
 .mainhead{
     text-align: center;
@@ -17,8 +15,6 @@ h1{
     border-radius: 15px;
     display: inline-block;
     padding: 10px 20px;
-    top: 0;
-    left: 0;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
@@ -47,6 +43,8 @@ h1{
 
 body{
     background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 .card-container{
