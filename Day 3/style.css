@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-.body{
+body{
     font-family: Arial, sans-serif;
-    background-color: #cce6e9;
+    background-color: #fbfbfb;
     max-width: 1000px;
-    margin: 0 auto;
 }
 
 .grid_container{
