@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .body{
     font-family: Arial, sans-serif;
     background-color: #cce6e9;
@@ -39,7 +40,7 @@
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (max-width: 600px){
+@media screen and(max-width: 600px){
     .grid_container{
         grid-template-columns: 1fr;
     }
