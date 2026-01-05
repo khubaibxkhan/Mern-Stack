@@ -43,6 +43,9 @@ largestOfThree(20,18,25);
 
 //4. A function that converts Celsius to Fahrenheit
 
-function celsiusToFarenheit(celsius){
-    return (celsius * 9 / 5) + 32;
+function celsiusToFahrenheit(celsius){
+        const Fahrenheit = (celsius * 9 / 5) + 32;
+        console.log(celsius + "C =", fahrenheit + "F");
 }
+
+celsiusToFahrenheit(30);
