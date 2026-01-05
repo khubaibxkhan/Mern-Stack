@@ -45,7 +45,7 @@ largestOfThree(20,18,25);
 
 function celsiusToFahrenheit(celsius){
         const Fahrenheit = (celsius * 9 / 5) + 32;
-        console.log(celsius + "C =", fahrenheit + "F");
+        console.log(celsius + "C =", Fahrenheit + "F");
 }
 
 celsiusToFahrenheit(30);
