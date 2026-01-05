@@ -9,10 +9,21 @@ function add(a,b) {
 
 function evenodd(a){
     if(a%2==0){
-        console.log("even")
+        return "Even";
     }
     else{
-        console.log("odd")
+        return "Odd";
     }
 }
 
+//3. A function that finds the largest of three numbers
+
+function largestofThree(a,b,c){
+    if (a >= b && a >= c ){
+        return a;
+    } else if (b >= a && b >= c){
+        return b;
+    } else {
+        return c;
+    }
+}
