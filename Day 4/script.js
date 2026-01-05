@@ -2,31 +2,44 @@
 
 function add(a,b) {
     const sum = a + b;
-    return sum;
+    console.log(sum);
 }
+
+add(5,7);
+
 
 //2. A function that checks if a number is even or odd
 
 function evenodd(a){
-    if(a%2==0){
-        return "Even";
+    if(a%2 === 0){
+        console.log("Even");
     }
     else{
-        return "Odd";
+        console.log("Odd");
     }
 }
+
+evenodd(5);
+evenodd(10);
 
 //3. A function that finds the largest of three numbers
 
 function largestOfThree(a,b,c){
+    let largest;
     if (a >= b && a >= c ){
-        return a;
+        largest = a;
     } else if (b >= a && b >= c){
-        return b;
+        largest = b;
     } else {
-        return c;
+        largest = c;
     }
+
+    console.log("Largest number : ", largest);
 }
+
+largestOfThree(10,5,2);
+largestOfThree(15,20,18);
+largestOfThree(20,18,25);
 
 //4. A function that converts Celsius to Fahrenheit
 
