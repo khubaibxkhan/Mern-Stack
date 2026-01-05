@@ -18,7 +18,7 @@ function evenodd(a){
 
 //3. A function that finds the largest of three numbers
 
-function largestofThree(a,b,c){
+function largestOfThree(a,b,c){
     if (a >= b && a >= c ){
         return a;
     } else if (b >= a && b >= c){
@@ -26,4 +26,10 @@ function largestofThree(a,b,c){
     } else {
         return c;
     }
+}
+
+//4. A function that converts Celsius to Fahrenheit
+
+function celsiusToFarenheit(celsius){
+    return (celsius * 9 / 5) + 32;
 }
