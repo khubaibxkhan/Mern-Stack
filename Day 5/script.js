@@ -26,3 +26,8 @@ const student = {
     skills: ["html" , "css" , "javascript"]
 };
 
+//4. Add a new skill to the object
+
+student.skills.push("Next JS");
+
+
