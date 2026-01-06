@@ -9,6 +9,20 @@ for(let i=0; i<=50 ; i++){
 }
 
 //2. An array of numbers and a function that returns only even numbers using filter
+
+const kbb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function getEvenNumbers(arr) {
+  return arr.filter(num => num % 2 === 0);
+}
+
+console.log(getEvenNumbers(kbb));
+
 //3. An object student with name, age, and skills (array)
-//4. Add a new skill to the object
-//5. Use a loop to print all keys and values of the object
+
+const student = {
+    name: "Khubaib Ahmad Khan" , 
+    age: 20,
+    skills: ["html" , "css" , "javascript"]
+};
+
