@@ -2,50 +2,49 @@
 
 function add(a,b) {
     const sum = a + b;
-    console.log(sum);
+    return sum;
+    
 }
 
-add(5,7);
+console.log(add(5,7));
 
 
 //2. A function that checks if a number is even or odd
 
 function evenodd(a){
     if(a%2 === 0){
-        console.log("Even");
+        return "Even";
     }
     else{
-        console.log("Odd");
+        return "Odd";
     }
 }
 
-evenodd(5);
-evenodd(10);
+console.log(evenodd(5));
+console.log(evenodd(10));
 
 //3. A function that finds the largest of three numbers
 
 function largestOfThree(a,b,c){
     let largest;
     if (a >= b && a >= c ){
-        largest = a;
+        return a;
     } else if (b >= a && b >= c){
-        largest = b;
+        return b;
     } else {
-        largest = c;
+        return c;
     }
-
-    console.log("Largest number : ", largest);
 }
 
-largestOfThree(10,5,2);
-largestOfThree(15,20,18);
-largestOfThree(20,18,25);
+console.log(largestOfThree(10,5,2));
+console.log(largestOfThree(15,20,18));
+console.log(largestOfThree(20,18,25));
 
 //4. A function that converts Celsius to Fahrenheit
 
 function celsiusToFahrenheit(celsius){
         const Fahrenheit = (celsius * 9 / 5) + 32;
-        console.log(celsius + "C =", Fahrenheit + "F");
+        return Fahrenheit;
 }
 
-celsiusToFahrenheit(30);
+console.log(celsiusToFahrenheit(30));
