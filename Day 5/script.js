@@ -10,13 +10,13 @@ for(let i=0; i<=50 ; i++){
 
 //2. An array of numbers and a function that returns only even numbers using filter
 
-const kbb = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers = [1, 2, 3, 4, 5, 6, 7];
 
 function getEvenNumbers(arr) {
   return arr.filter(num => num % 2 === 0);
 }
 
-console.log(getEvenNumbers(kbb));
+console.log(getEvenNumbers(numbers));
 
 //3. An object student with name, age, and skills (array)
 
@@ -32,8 +32,4 @@ student.skills.push("Next JS");
 
 //5. Use a loop to print all keys and values of the object
 
-const keys = Object.keys(student);
-
-for (let i = 0; i < keys.length; i++) {
-  console.log(keys[i] + " : " + student[keys[i]]);
-}
+console.log(students);
