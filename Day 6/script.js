@@ -3,3 +3,6 @@ const button = document.querySelector("button");
 const div = document.querySelector("div");
 
 paragraph.textContent = "This text is changed using JavaScript";
+
+div.style.backgroundColor = "lightgray";
+
