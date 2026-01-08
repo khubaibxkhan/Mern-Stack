@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.app{
+    width: 90%;
+    max-width: 22rem;
+    margin:1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    gap: 10px;
+    background-color: rgb(114, 55, 55);
+    display: grid;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+.input-area{
+    display:flex;
+    gap:5px;
+}
+
+input{
+    flex:1;
+    padding: 5px;
+}
+
+#task-list{
+    list-style:none;
+    padding: 0;
+    margin : 0;
+    display: grid;
+    gap: 5px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+button{
+    padding: 5px 7.5px;
+    cursor:pointer;
+}
