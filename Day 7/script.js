@@ -1,6 +1,6 @@
-const addBtn = document.querySelector('add-btn');
-const input = document.querySelector('task-input');
-const taskList = document.querySelector('task-list');
+const addBtn = document.querySelector('#add-btn');
+const input = document.querySelector('#task-input');
+const taskList = document.querySelector('#task-list');
 
 addBtn.addEventListener('click', () => {
     const taskText = input.value.trim();
@@ -10,16 +10,17 @@ addBtn.addEventListener('click', () => {
     const delBtn = document.createElement('button');
 
     span.textContent = taskText;
+     delBtn.textContent = "Delete";
 
 
     delBtn.addEventListener('click', () => {
         li.remove();
     });
 
-    li.appendChild('span');
-    li.appendChild('delBtn');
-    taskList.appendChild('li');
+    li.appendChild(span);
+    li.appendChild(delBtn);
+    taskList.appendChild(li);
 
-    taskText.value = "";
+    input.value = "";
 
 });
