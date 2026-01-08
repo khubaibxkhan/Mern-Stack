@@ -12,14 +12,14 @@ body{
     background-color: #B83556;
 }
 
-.playlist{
+#playlist{
     background-color: pink;
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    border: 2.5px solid black;
+    border: 2.5px solid #0e0204;
     box-shadow: 8px 12px 32px rgba(0, 0, 0, 0.8);
     border-radius: 26px;
     -webkit-border-radius: 26px;
@@ -28,7 +28,7 @@ body{
     -o-border-radius: 26px;
 }
 
-.playlist h2 {
+#playlist h2 {
   margin-bottom: 20px;
   /* background-color: #faded2; */
   color: #845747;
@@ -37,13 +37,13 @@ body{
   font-size: xx-large;
 }
 
-.playlist ul {
+#playlist ul {
   margin-bottom: 20px;
   list-style-type: none;
 
 }
 
-.playlist ul li {
+#playlist ul li {
     padding-top: 10px;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
