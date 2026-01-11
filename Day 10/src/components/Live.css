@@ -1,0 +1,18 @@
+.live-display{
+    font-size: 2.5rem;   
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color:  #2d3a3a;
+}
+
+.live-display::first-letter{
+    text-transform: uppercase;
+}
+
+.live-manager{
+    padding: 10px 50px;
+    padding-left: 10px;
+    text-align: left;
+    border: 2px dashed black;
+}

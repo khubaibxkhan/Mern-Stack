@@ -6,13 +6,12 @@
   color:  #2d3a3a;
 }
 
-
 .button-set{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .increment-btn{
-     background-color: #638d6f;
+     background-color: #1db954;
      color: white;
      padding: 10px 20px;
      border-radius:26px ;
@@ -23,7 +22,7 @@
 }
 
 .decrement-btn{
-    background-color: #78270d;
+    background-color: #e63946;
      color: white;
       padding: 10px 20px;
      border-radius:26px ;
