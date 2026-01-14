@@ -12,15 +12,19 @@ export const EffectChallenge = () => {
 
     useEffect(() => {
         document.title = `Count : ${count}`;
-    })
+    }, [count]);
+
+    useEffect(() => {
+        console.log(name);
+    }, [name]);
 
     const userName = (e) => {
         setName(e.target.value);
-    }
+    };
 
     const increment = () => {
         setCount(count + 1)
-    }
+    };
 
   return (
     <div>
@@ -36,7 +40,7 @@ export const EffectChallenge = () => {
         Name : <span>{name}</span> 
       </p>
 
-      <input type="text" onChange={userName} />
+      <input type="text" value={name} onChange={userName} />
     </div>
   );
 };
