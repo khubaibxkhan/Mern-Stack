@@ -1,9 +1,7 @@
 import './App.css'
-import UserList from './components/UserList'
+import { UserList } from './components/UserList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
      <UserList />
