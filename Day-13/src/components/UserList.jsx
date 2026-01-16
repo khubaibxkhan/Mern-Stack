@@ -14,7 +14,7 @@ export const UserList = () => {
             const res = await fetch(API);
 
             if (!res.ok) {
-                throw new Error("Failed to Fetch User!")  //if resource is not ok then throw this error
+                throw new Error("Failed to Fetch User Data!")  //if resource is not ok then throw this error
             }
 
             const data = await res.json();
@@ -54,7 +54,6 @@ export const UserList = () => {
                 <hr/>
             </div>
         )}
-        
     </div>
   )
 }
