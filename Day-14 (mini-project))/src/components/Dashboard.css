@@ -5,3 +5,12 @@
   padding: 20px;
   flex: 1;
 }
+
+.loading-state{
+    color: orange;
+}
+
+.error-state{
+    color: red;
+    background-color: black;
+}
