@@ -20,5 +20,5 @@ app.get('/about' , (req,res) => {
 //404 error
 app.use((req,res) => {
     res.status(404).render('404' , {title: 'error'});
-})
+});
 
