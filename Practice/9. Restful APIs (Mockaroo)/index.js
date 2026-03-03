@@ -59,7 +59,7 @@ app.route("/api/users/:id")
     })
     .delete((req,res) => { 
             const id = Number(req.params.id);
-
+        
             const userIndex = users.findIndex(user => user.id === id);
 
             if (userIndex === -1) {
